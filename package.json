@@ -1,11 +1,17 @@
 {
-  "name": "cli",
+  "name": "@toshi-toma/cli",
   "version": "1.0.0",
   "description": "My Node.js CLI",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "cli": "node src/index.js toshi-toma",
     "cli:commander": "node src/commander.js src --watch"
+  },
+  "bin": {
+    "cli": "bin/cli.js"
   },
   "repository": {
     "type": "git",
