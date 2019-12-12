@@ -1,0 +1,26 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "description": "My Node.js CLI",
+  "main": "index.js",
+  "scripts": {
+    "cli": "node src/index.js toshi-toma",
+    "cli:commander": "node src/commander.js src --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/toshi-toma/cli.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toshi-toma/cli/issues"
+  },
+  "homepage": "https://github.com/toshi-toma/cli#readme",
+  "dependencies": {
+    "commander": "^4.0.1"
+  }
+}
