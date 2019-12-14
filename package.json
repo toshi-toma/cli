@@ -33,14 +33,18 @@
     "chalk": "^3.0.0",
     "commander": "^4.0.1",
     "ink": "^2.6.0",
-    "react": "^16.12.0"
+    "react": "^16.12.0",
+    "shelljs": "^0.8.3"
   },
   "babel": {
     "plugins": [
-      ["@babel/plugin-transform-react-jsx", {
-        "pragma": "h",
-        "useBuiltIns": true
-      }]
+      [
+        "@babel/plugin-transform-react-jsx",
+        {
+          "pragma": "h",
+          "useBuiltIns": true
+        }
+      ]
     ]
   }
 }
