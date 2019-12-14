@@ -27,6 +27,20 @@
   },
   "homepage": "https://github.com/toshi-toma/cli#readme",
   "dependencies": {
-    "commander": "^4.0.1"
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-transform-react-jsx": "^7.7.4",
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1",
+    "ink": "^2.6.0",
+    "react": "^16.12.0"
+  },
+  "babel": {
+    "plugins": [
+      ["@babel/plugin-transform-react-jsx", {
+        "pragma": "h",
+        "useBuiltIns": true
+      }]
+    ]
   }
 }
